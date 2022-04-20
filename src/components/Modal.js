@@ -9,8 +9,8 @@ const Modal = ({
 }) => {
   const [searchedLanguage, setSearchedLanguage] = useState('')
 
-  const filteredLanguages = languages.filter((language) =>
-    language.toLowerCase().startsWith(searchedLanguage.toLowerCase())
+  const filteredLanguages = languages?.filter((language) =>
+    language?.toLowerCase()?.startsWith(searchedLanguage.toLowerCase())
   )
 
   const handleClick = (e) => {

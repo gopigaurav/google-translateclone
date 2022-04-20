@@ -9,7 +9,7 @@ const App = () => {
   const [showModal, setShowModal] = useState(false)
   const [languages, setLanguages] = useState(null)
   const [inputLanguage, setInputLanguage] = useState('English')
-  const [outputLanguage, setOutputLanguage] = useState('Polish')
+  const [outputLanguage, setOutputLanguage] = useState('Hindi')
   const [textToTranslate, setTextToTranslate] = useState('')
   const [translatedText, setTranslatedText] = useState('')
 
